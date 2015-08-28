@@ -1,0 +1,53 @@
+STARTS UNPACKED
+unpacked JaggedArray
+  num_bins: 7
+  num_elements: 6
+  counts:  0 3 0 2 0 0 1
+  values:    a   d     f
+             b   e      
+             c          
+
+CONVERT TO PACKED
+packed JaggedArray
+  num_bins: 7
+  num_elements: 6
+  offsets:  0 0 3 3 5 5 5
+  values:   a b c d e f
+
+CONVERT BACK TO UNPACKED
+unpacked JaggedArray
+  num_bins: 7
+  num_elements: 6
+  counts:  0 3 0 2 0 0 1
+  values:    a   d     f
+             b   e      
+             c          
+
+ADDED G
+unpacked JaggedArray
+  num_bins: 7
+  num_elements: 7
+  counts:  0 3 0 3 0 0 1
+  values:    a   d     f
+             b   e      
+             c   g      
+
+REMOVED B
+unpacked JaggedArray
+  num_bins: 7
+  num_elements: 6
+  counts:  0 2 0 3 0 0 1
+  values:    a   d     f
+             c   e      
+                 g      
+
+CLEARED
+unpacked JaggedArray
+  num_bins: 7
+  num_elements: 0
+  counts:  0 0 0 0 0 0 0
+  values:               
+
+Simple test completed.
+Student tests completed.
+More tests completed.

@@ -1,0 +1,17 @@
+unpacked JaggedArray
+  num_bins: 7
+  num_elements: 24
+  counts:  5 1 5 3 2 3 5
+  values:  u f j w g k s
+           h   l g w b l
+           m   w r   s l
+           w   m       u
+           b   r       p
+
+packed JaggedArray
+  num_bins: 7
+  num_elements: 24
+  offsets:  0 5 6 11 14 16 19
+  values:   u h m w b f j l w m r w g r g w k b s s l l u p
+
+Batch test completed.
